@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #00CED1;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.presentacion {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    justify-content: space-between;
+}
+.presentacion__encriptador {
+    width: 577px;
+    
+}
+.presentacion__encriptador__parrafo {
+    font-size: 32px;
+}
