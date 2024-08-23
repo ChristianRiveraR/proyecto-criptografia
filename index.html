@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
-    <link rel="stylesheet" href="style.css">
-    </head>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 <body>
-    <header></header>
-    <main class="presentacion">
-        <section class="presentacion__encriptador"
-        <h1>Ingrese el texto aqui</h1>
-        <img src="Logo.png">
-        <p class "presentacion__encriptador__parrafo">Solo letras minúsculas y sin acentos</p>
-        <a>Encriptar</a>
-        <a>Desencriptar</a>
-        <img src="Muñeco.png">
-        <p>Ningún mensaje fue encontrado
-            Ingresa el texto que desees encriptar o desencriptar</p>
-        
-        
-    
+    <header>
+        <div class="logo">
+        <img class="src=./imagenes.logo" src="./imagenes/Logo.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="izquierda">
+                <textarea placeholder="Ingrese texto aqui"></textarea>
+                <div class="Ingrese__texto">
+                    <span>Solo letras minusculas y sin acentos</span>
+                    <div class="Botones__Izquierdos ">
+                        <button class="Boton__Encriptar">Encriptar</button>
+                        <button class="Boton__Desencriptar">Desencriptar</button>
+                    </div>
+                </div>    
+            </div>  
+                <div class="derecha">
+                <img src="./Imagenes/Muñeco.png" alt="">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                <button>Copiar</button>
+
+            </div>
+        </div>
     </main>
     <footer></footer>
-    
 </body>
 </html>
